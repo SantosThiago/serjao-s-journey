@@ -1,0 +1,713 @@
+# depslib dependency file v1.0
+1575552336 source:c:\users\thiago\desktop\serjão's journey\src\main.cpp
+	"PIG.h"
+	<iostream>
+
+1575325664 c:\users\thiago\desktop\serjão's journey\include\pig.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	<string.h>
+	<time.h>
+	<vector>
+	<map>
+	"SDL.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL_net.h"
+	"Tipos_PIG.h"
+	"CPoolNumeros.h"
+	"SDL_mixer.h"
+	"CGerenciadorJanelas.h"
+	"CGerenciadorSockets.h"
+	"CAssetLoader.h"
+	"CMapaCaracteres.h"
+	"CVisual.h"
+	"CGerenciadorObjetos.h"
+	"CGerenciadorTimers.h"
+	"CGerenciadorVideos.h"
+	"CGerenciadorAudios.h"
+	"CGerenciadorAnimacoes.h"
+	"CGerenciadorParticulas.h"
+	"CMouse.h"
+	"CGerenciadorControles.h"
+	"CJogo.h"
+
+1575326188 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326236 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326292 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1575326202 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_config.h
+	"SDL_platform.h"
+
+1575326272 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1575326184 c:\users\thiago\desktop\serjão's journey\include\sdl\begin_code.h
+
+1575326186 c:\users\thiago\desktop\serjão's journey\include\sdl\close_code.h
+
+1575326190 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1575326192 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1575326194 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326210 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326208 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1575326246 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326332 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1575326284 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326200 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326204 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1575326212 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326348 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326270 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326278 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326294 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326198 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1575326228 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326230 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1575326288 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1575326244 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326226 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326218 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326276 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1575326220 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326336 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326216 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326222 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326224 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326232 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326234 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326240 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326274 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326280 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326290 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326296 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326334 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326346 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326338 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326392 c:\users\thiago\desktop\serjão's journey\include\sdl_image\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575326250 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_net.h
+	<stdint.h>
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575325668 c:\users\thiago\desktop\serjão's journey\include\tipos_pig.h
+	"direct.h"
+	"unistd.h"
+
+1575325632 c:\users\thiago\desktop\serjão's journey\include\cpoolnumeros.h
+
+1575326242 c:\users\thiago\desktop\serjão's journey\include\sdl\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575325598 c:\users\thiago\desktop\serjão's journey\include\cgerenciadorjanelas.h
+	"CJanela.h"
+
+1575325610 c:\users\thiago\desktop\serjão's journey\include\cjanela.h
+
+1575325604 c:\users\thiago\desktop\serjão's journey\include\cgerenciadorsockets.h
+	"CSocketTCP.h"
+	"CClienteTCP.h"
+	"CServidorTCP.h"
+	"CSocketUDP.h"
+
+1575325636 c:\users\thiago\desktop\serjão's journey\include\csockettcp.h
+
+1575325582 c:\users\thiago\desktop\serjão's journey\include\cclientetcp.h
+
+1575325634 c:\users\thiago\desktop\serjão's journey\include\cservidortcp.h
+
+1575325638 c:\users\thiago\desktop\serjão's journey\include\csocketudp.h
+
+1575325578 c:\users\thiago\desktop\serjão's journey\include\cassetloader.h
+
+1575325614 c:\users\thiago\desktop\serjão's journey\include\cmapacaracteres.h
+	"COffscreenRenderer.h"
+
+1575325620 c:\users\thiago\desktop\serjão's journey\include\coffscreenrenderer.h
+	"CPilhaCoordenada.h"
+
+1575325630 c:\users\thiago\desktop\serjão's journey\include\cpilhacoordenada.h
+
+1575325662 c:\users\thiago\desktop\serjão's journey\include\cvisual.h
+
+1575325600 c:\users\thiago\desktop\serjão's journey\include\cgerenciadorobjetos.h
+	"CObjeto.h"
+
+1575325618 c:\users\thiago\desktop\serjão's journey\include\cobjeto.h
+
+1575325606 c:\users\thiago\desktop\serjão's journey\include\cgerenciadortimers.h
+	"CTimer.h"
+
+1575325648 c:\users\thiago\desktop\serjão's journey\include\ctimer.h
+	<chrono>
+
+1575325608 c:\users\thiago\desktop\serjão's journey\include\cgerenciadorvideos.h
+	"CVideo.h"
+
+1575325650 c:\users\thiago\desktop\serjão's journey\include\cvideo.h
+	<libavfilter/avfilter.h>
+	<libavformat/avformat.h>
+	<libavcodec/avcodec.h>
+	<libavdevice/avdevice.h>
+	<libavutil/imgutils.h>
+	<libavutil/avstring.h>
+	<libavutil/time.h>
+	<libswresample/swresample.h>
+	<libswscale/swscale.h>
+	"CFilaPacotes.h"
+
+1575326630 c:\users\thiago\desktop\serjão's journey\include\video\libavfilter\avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1575326694 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\attributes.h
+
+1575326704 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1575326722 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1575326798 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\macros.h
+
+1575326862 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\version.h
+	"macros.h"
+
+1575326700 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\avconfig.h
+
+1575326806 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1575326740 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\error.h
+	<errno.h>
+	<stddef.h>
+
+1575326826 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1575326802 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1575326788 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1575326794 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1575326822 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1575326714 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\buffer.h
+	<stdint.h>
+
+1575326730 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\dict.h
+	<stdint.h>
+	"version.h"
+
+1575326750 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\frame.h
+	<stddef.h>
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1575326836 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1575326636 c:\users\thiago\desktop\serjão's journey\include\video\libavfilter\version.h
+	"libavutil/version.h"
+
+1575326638 c:\users\thiago\desktop\serjão's journey\include\video\libavformat\avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1575326592 c:\users\thiago\desktop\serjão's journey\include\video\libavcodec\avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/hwcontext.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1575326724 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\cpu.h
+	<stddef.h>
+	"attributes.h"
+
+1575326720 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\channel_layout.h
+	<stdint.h>
+
+1575326756 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\hwcontext.h
+	"buffer.h"
+	"frame.h"
+	"log.h"
+	"pixfmt.h"
+
+1575326616 c:\users\thiago\desktop\serjão's journey\include\video\libavcodec\version.h
+	"libavutil/version.h"
+
+1575326640 c:\users\thiago\desktop\serjão's journey\include\video\libavformat\avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1575326642 c:\users\thiago\desktop\serjão's journey\include\video\libavformat\version.h
+	"libavutil/version.h"
+
+1575326624 c:\users\thiago\desktop\serjão's journey\include\video\libavdevice\avdevice.h
+	"version.h"
+	"libavutil/log.h"
+	"libavutil/opt.h"
+	"libavutil/dict.h"
+	"libavformat/avformat.h"
+
+1575326628 c:\users\thiago\desktop\serjão's journey\include\video\libavdevice\version.h
+	"libavutil/version.h"
+
+1575326814 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1575326786 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1575326818 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1575326702 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1575326852 c:\users\thiago\desktop\serjão's journey\include\video\libavutil\time.h
+	<stdint.h>
+
+1575326870 c:\users\thiago\desktop\serjão's journey\include\video\libswresample\swresample.h
+	<stdint.h>
+	"libavutil/channel_layout.h"
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1575326872 c:\users\thiago\desktop\serjão's journey\include\video\libswresample\version.h
+	"libavutil/avutil.h"
+
+1575326874 c:\users\thiago\desktop\serjão's journey\include\video\libswscale\swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1575326876 c:\users\thiago\desktop\serjão's journey\include\video\libswscale\version.h
+	"libavutil/version.h"
+
+1575325586 c:\users\thiago\desktop\serjão's journey\include\cfilapacotes.h
+
+1575325594 c:\users\thiago\desktop\serjão's journey\include\cgerenciadoraudios.h
+	"CAudio.h"
+
+1575325580 c:\users\thiago\desktop\serjão's journey\include\caudio.h
+
+1575325592 c:\users\thiago\desktop\serjão's journey\include\cgerenciadoranimacoes.h
+	"CAnimacao.h"
+
+1575325576 c:\users\thiago\desktop\serjão's journey\include\canimacao.h
+
+1575325602 c:\users\thiago\desktop\serjão's journey\include\cgerenciadorparticulas.h
+	"CGeradorParticulas.h"
+
+1575325588 c:\users\thiago\desktop\serjão's journey\include\cgeradorparticulas.h
+	"CParticula.h"
+
+1575325622 c:\users\thiago\desktop\serjão's journey\include\cparticula.h
+
+1575325616 c:\users\thiago\desktop\serjão's journey\include\cmouse.h
+
+1575325596 c:\users\thiago\desktop\serjão's journey\include\cgerenciadorcontroles.h
+	"CControle.h"
+
+1575325584 c:\users\thiago\desktop\serjão's journey\include\ccontrole.h
+
+1575325612 c:\users\thiago\desktop\serjão's journey\include\cjogo.h
+
